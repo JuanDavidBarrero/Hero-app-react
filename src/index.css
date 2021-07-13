@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 nav{
     background-color: rgb(99, 99, 99);
 }
@@ -44,3 +45,103 @@ nav ul .nav-item:first-child{
 nav ul .nav-item.active{
     color: white;
 }
+
+
+.container{
+    padding: 10px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.container h1{
+    margin-bottom: 10px;
+    border-bottom: 2px solid black;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,300px));
+    padding: 20px;
+    gap: 0.3rem;
+}
+
+.card{
+    display: flex;
+    padding: 5px;
+    gap: 1.2rem;
+    border-radius: 10px;
+    border: 1px solid grey;
+    min-width:250px;
+}
+
+.card img{
+    height: 250px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: fle;
+}
+
+.hero-info-row{
+    display: flex;
+    padding: 20px;
+    gap: 0.5rem;
+}
+
+.hero-info-row img{
+    border-radius: 10px;
+    height: 400px;
+    width: 300px;
+}
+
+.col-hero-info h3{
+    padding: 5px;
+}
+
+.col-hero-info ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 200px;
+    list-style: none;
+}
+
+.col-hero-info ul li{
+    padding: 5px;
+    border-bottom: 1px solid gray;
+    margin-bottom: 5px;
+}
+
+.col-hero-info button{
+    margin-top: 10px;
+    padding: 5px 20px;
+    background: white;
+    color: rgb(1, 200, 207);
+    border: 1px solid rgb(1, 200, 207);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.col-hero-info button:hover{
+    background: rgb(1, 200, 207);
+    color: white;
+}
+
+.col-hero-info button:active{
+    transform: scale(0.92);
+}
+
+.col-hero-info button:focus{
+    outline: none;
+}
+
+
+
+
+
