@@ -141,7 +141,42 @@ nav ul .nav-item.active{
     outline: none;
 }
 
+input {
+    border-radius: 20px;
+    border: 1px solid gray;
+    padding: 10px;
+    width: 100%;
+}
 
+form{
+    padding: 10px;
+    position: relative;
+}
+
+input:focus{
+    outline: none;
+}
+
+form button{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30%;
+    padding: 6px;
+    border-radius: 20px;
+    color: white;
+    font-size: 1.2em;
+    background: #1717a8;
+    border: 1px solid #1717a8
+}
+
+form button:active{
+    transform: scale(0.98);
+}
+
+form button:focus{
+    outline: none;
+}
 
 
 
