@@ -10,12 +10,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(46, 46, 46);
+    background-color: #fff
 }
 
 .main-contetn h1{
     text-align: center;
-    color: #fff;
     width: 500px;
     margin-bottom: 10px;
     border-bottom: 2px solid rgb(42, 4, 179);
